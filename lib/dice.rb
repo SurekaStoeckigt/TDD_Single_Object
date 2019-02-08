@@ -1,2 +1,6 @@
 class Dice
-end 
+
+def roll
+end
+
+end
