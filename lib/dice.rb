@@ -1,7 +1,7 @@
 class Dice
 
 def roll
-  true 
+  3 
 end
 
 end
