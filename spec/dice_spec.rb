@@ -9,7 +9,8 @@ end
 
 it 'rolls the dice and returns number between 1 and 6' do
   dice = Dice.new
-  expect(dice.roll).to eq 3
+  expect(dice.roll).to be_between(1,6)
 end
+
 
 end
