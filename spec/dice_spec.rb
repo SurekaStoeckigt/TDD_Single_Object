@@ -12,5 +12,9 @@ it 'rolls the dice and returns number between 1 and 6' do
   expect(dice.roll).to be_between(1,6)
 end
 
+it 'expects the roll to be random' do
+  dice = Dice.new
+  expect(dice.roll).to be_between(1,6)
+end
 
 end
